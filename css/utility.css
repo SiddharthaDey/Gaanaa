@@ -1,0 +1,110 @@
+.border {
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.direc {
+    flex-direction: column;
+    gap: 14px;
+    height: 390px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: rgb(19, 19, 18);
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #333;
+    /* dark background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666;
+    /* dark color for scrollbar handle */
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    /* lighter color for scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+    /* dark background color for scrollbar track */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+    background: #444;
+    /* slightly lighter color for scrollbar track on hover */
+}
+
+/* #previous {
+    border: 1px solid black;
+    border-radius: 400px;
+    background-color: white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#play {
+    border: 1px solid black;
+    border-radius: 400px;
+    background-color: white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#next {
+    border: 1px solid black;
+    border-radius: 400px;
+    background-color: white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
